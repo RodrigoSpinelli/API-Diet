@@ -4,6 +4,6 @@ import { randomUUID } from "node:crypto";
 import { knex } from "../database";
 import { checkSessionIdExists } from "../middlewares/check-session-id-exists";
 
-export async function mealsRoutes () {
-
+export async function mealsRoutes (app: FastifyInstance) {
+  
 }
