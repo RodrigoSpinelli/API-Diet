@@ -7,7 +7,7 @@ export const app = fastify();
 
 app.register(cookie);
 app.register(mealsRoutes, {
-  prefix: "snacks",
+  prefix: "meals",
 });
 app.register(usersRoutes, {
   prefix: "users",

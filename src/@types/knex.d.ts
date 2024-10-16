@@ -12,10 +12,11 @@ declare module "knex/types/tables" {
     };
     meals: {
       id: string;
+      user_id: string;
       name: string;
       description: string;
       is_on_diet: boolean;
-      date: string;
+      date: number; // unix timestamp
       create_at: string;
       updated_at: string;
     };
